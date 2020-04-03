@@ -2,24 +2,64 @@
   box-sizing: border-box;
 }
 
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  color: #27374e;
+}
+
+button {
+  background: #27374e;
+  color: white;
+}
+
+header .logo_tiffanyhotel {
+  width: 200px;
+}
+header .logo_header__container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+  margin-left: 45%;
+}
+header .logo_header__container .logos_header__size {
+  width: 30px;
+}
+
+footer {
+  background: beige;
+}
+
 #container {
   border: 2px solid red;
 }
 #container .section1 {
   border: 2px solid grey;
+  background-image: url("../img/salon.jpg");
+  background-repeat: no-repeat;
+  height: 681px;
 }
 #container .section2 {
   border: 2px solid pink;
 }
 #container .section3 {
   border: 2px dashed yellow;
+  background-image: url("../img/chambre.jpg");
+  background-repeat: no-repeat;
+  height: 621px;
 }
 #container .section4 {
   border: 2px solid black;
 }
 #container .section5 {
   border: 2px solid green;
-}
-#container footer {
-  background: beige;
+  background-image: url("../img/geneva-nb.jpg");
+  background-repeat: no-repeat;
+  height: 593px;
 }

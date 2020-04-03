@@ -1,0 +1,21 @@
+header
+{
+
+  .logo_tiffanyhotel
+  {
+    width: 200px;
+  }
+
+  .logo_header__container
+  {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    margin-left: 45%;
+
+    .logos_header__size
+    {
+      width: 30px;
+    }
+  }
+}
