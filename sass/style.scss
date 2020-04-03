@@ -1,0 +1,37 @@
+
+@import "base/_normes.scss";
+
+#container
+{
+  border: 2px solid red;
+
+    .section1
+    {
+      border: 2px solid grey;
+    }
+
+    .section2
+    {
+      border: 2px solid pink;
+    }
+
+    .section3
+    {
+      border: 2px dashed yellow;
+    }
+
+    .section4
+    {
+      border: 2px solid black;
+    }
+
+    .section5
+    {
+      border: 2px solid green;
+    }
+
+    footer
+    {
+      background: beige;
+    }
+}

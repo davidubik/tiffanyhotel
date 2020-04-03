@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+#container {
+  border: 2px solid red;
+}
+#container .section1 {
+  border: 2px solid grey;
+}
+#container .section2 {
+  border: 2px solid pink;
+}
+#container .section3 {
+  border: 2px dashed yellow;
+}
+#container .section4 {
+  border: 2px solid black;
+}
+#container .section5 {
+  border: 2px solid green;
+}
+#container footer {
+  background: beige;
+}
