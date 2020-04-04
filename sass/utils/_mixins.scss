@@ -1,0 +1,9 @@
+@mixin containerSection
+{
+  background: $primaryColor;
+  color: $secondaryColor;
+  opacity: 55%;
+  margin-top: 35%;
+  align-content: center;
+  border-radius: 5px;
+}
