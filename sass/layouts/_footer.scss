@@ -1,4 +1,32 @@
 footer
 {
-  background: beige;
+  background: $primaryColor;
+  color: $secondaryColor;
+  display: flex;
+  justify-content: space-around;
+
+
+  .footer__partie1
+  {
+    @include sectionPosition;
+  }
+
+  .footer__partie2
+  {
+    @include sectionPosition;
+
+    a
+    {
+      color: $secondaryColor;
+    }
+
+    .logo__network
+    {
+      width: 20%;
+    }
+  }
+  .footer__partie3
+  {
+    @include sectionPosition;
+  }
 }
