@@ -14,19 +14,33 @@ footer
   .footer__partie2
   {
     @include sectionPosition;
-
     a
     {
       color: $secondaryColor;
     }
 
-    .logo__network
+  .logo_social
     {
-      width: 20%;
+      display: flex;
+
+      .logo__network
+      {
+        width: 50%;
+      }
+      .insta
+      {
+        width: 40%;
+      }
     }
+
   }
   .footer__partie3
   {
     @include sectionPosition;
+
+    a
+    {
+      color:$secondaryColor;
+    }
   }
 }
