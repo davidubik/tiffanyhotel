@@ -3,6 +3,7 @@
 @import "utils/_mixins.scss";
 @import "base/_normes.scss";
 @import "composants/_bouton.scss";
+@import "composants/_form.scss";
 @import "layouts/_header.scss";
 @import "layouts/_footer.scss";
 
@@ -137,7 +138,7 @@
         .section4__geneve
         {
           @include sectionPosition;
-          
+
           .section4__img
           {
             width: 20%;
