@@ -2,8 +2,9 @@
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Acceuil</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   </head>
   <body>
         <div id="container">
@@ -34,48 +35,69 @@
                         </ul>
                     </nav>
             </header>
-            <footer>
-                <section class="footer__partie1">
-                    <h2>HÔTEL TIFFANY GENÈVE</h2>
-                    <p>
-                      20, RUE DE L'ARQUEBUSE CH-1204 GENÈVE SUISSE
-                    </p>
-                    <p>
-                      HOTEL EASTWEST GENÈVE <br>
-                      ADHOTELS, LE GROUPE
-                    </p>
-                </section>
-                <section class="footer__partie2">
-                    <h2>CONTACTS</h2>
-                      <p>
-                        HÔTEL: +41 22 708 16 16
-                      </p>
-                      <p>
-                        <a href="#">info@tiffanyhotel.ch</a>
-                      </p>
-                      <p>
-                        Restaurent : +41 22 708 16 06
-                      </p>
-                      <p>
-                        <a href="#">restaurent@tiffanyhotel.ch</a>
-                      </p>
-                        <div class="logo_social">
-                          <img src="../logo/fb.png" alt="logo facebook">
-                          <img src="../logo/twitter.png" alt="logo twitter">
-                          <img src="../logo/insta.png" alt="logo instagram">
-                        </div>
-                </section>
-                <section class="footer__section3">
-                  <h2>NEWSLETTER</h2>
-                    <p>
-                      Recevez nos meilleures offres et dernières actualités chaque mois.
-                    </p>
-                      <form class="" action="index.html" method="post">
-                          <input type="text" name="" value="email">
-                            <sub>Submit</sub>
-                      </form>
-                </section>
-            </footer>
+              <div class="form">
+                <form action="/ma-page-de-traitement" method="post">
+                  <div>
+                    <input type="text" id="name" name="user_name" placeholder="Votre nom (obligatoire)">
+              </div>
+              <div>
+                <input type="email" id="mail" name="user_mail" placeholder="Votre email (obligatoire)">
+            </div>
+            <div>
+                <input type="texte" id="sujet" name="user_mail" placeholder="Sujet">
+            </div>
+            <div>
+                <textarea id="msg" name="user_message" placeholder="Message"></textarea>
+            </div>
+            <div class="button">
+              <button type="submit">Envoyer le message</button>
+            </div>
+          </form>
+
+              </div>
+
+                <footer>
+                    <section class="footer__partie1">
+                        <h2>HÔTEL TIFFANY GENÈVE</h2>
+                          <p>
+                            20, RUE DE L'ARQUEBUSE CH-1204 GENÈVE SUISSE
+                          </p>
+                          <p>
+                            HOTEL EASTWEST GENÈVE <br>
+                            ADHOTELS, LE GROUPE
+                          </p>
+                    </section>
+                    <section class="footer__partie2">
+                        <h2>CONTACTS</h2>
+                            <p>
+                              HÔTEL: +41 22 708 16 16
+                            </p>
+                            <p>
+                              <a href="#">info@tiffanyhotel.ch</a>
+                            </p>
+                            <p>
+                              Restaurent : +41 22 708 16 06
+                            </p>
+                            <p>
+                              <a href="#">restaurent@tiffanyhotel.ch</a>
+                            </p>
+                              <div class="logo_social">
+                                <a href="https://www.facebook.com/" target="_blank"><img class="logo__network" src="../logo/fb.png" alt="logo facebook"></a>
+                                <a href="https://twitter.com/" target="_blank"><img class="logo__network" src="../logo/twitter.png" alt="logo twitter"></a>
+                                <a href="https://www.instagram.com/" target="_blank"><img class="logo__network insta" src="../logo/insta.png" alt="logo instagram"></a>
+                              </div>
+                    </section>
+                    <section class="footer__partie3">
+                      <h2>NEWSLETTER</h2>
+                        <p>
+                          Recevez nos meilleures offres et dernières actualités chaque mois.
+                        </p>
+                          <form class="" action="index.html" method="post">
+                              <input type="text" name="" value="email">
+                              <a href="#"> Submit </a>
+                          </form>
+                    </section>
+                </footer>
           </div>
         </body>
   </html>
