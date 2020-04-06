@@ -16,12 +16,9 @@
       background-image: url('../img/salon.jpg');
       background-repeat: no-repeat;
       height: 681px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
+      @include sectionPosition;
       color: $secondaryColor;
-      
+
 
       .container_section1__h1-p
       {
@@ -56,16 +53,10 @@
       background-image: url('../img/chambre.jpg');
       background-repeat: no-repeat;
       height:621px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      @include sectionPosition;
 
       .container_section3__h2-p
       {
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        text-align: center;
         @include containerSection;
         margin-top: 20%;
         h2
@@ -96,10 +87,7 @@
 
       .container_section4__h2-p
       {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
+        @include sectionPosition;
         p
         {
           width: 50%;
