@@ -10,13 +10,9 @@
 
 #container
 {
-  border: 2px solid red;
-
-
 
     .section1
     {
-      border: 2px solid grey;
       background-image: url('../img/salon.jpg');
       background-repeat: no-repeat;
       height: 681px;
@@ -25,6 +21,7 @@
       align-items: center;
       text-align: center;
       color: $secondaryColor;
+      
 
       .container_section1__h1-p
       {
