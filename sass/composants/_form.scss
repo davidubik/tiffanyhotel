@@ -19,7 +19,10 @@
     }
     a
     {
-     color: $secondaryColor; 
+      .bnt__form
+      {
+        background: $primaryColor;
+      }
     }
   }
 }

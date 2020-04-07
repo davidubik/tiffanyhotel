@@ -40,12 +40,19 @@
         font-style: italic;
       }
 
-      .section2__p3
+      .container_section2__p3-button
       {
         display: flex;
         flex-direction: column;
         width: 10%;
+        .section2__p3
+        {
+          display: flex;
+          flex-direction: column;
+        }
       }
+
+
     }
 
     .section3

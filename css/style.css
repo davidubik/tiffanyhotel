@@ -25,13 +25,11 @@ ul li:hover {
   border-bottom: 1px solid #b1882f;
 }
 
-button {
+a .button {
+  border: #27374e;
+  color: white;
   background: #27374e;
-  color: white;
   border-radius: 10%;
-}
-button a {
-  color: white;
 }
 
 .form form {
@@ -50,8 +48,8 @@ button a {
 .form form textarea {
   height: 10vh;
 }
-.form form a {
-  color: white;
+.form form .btn .bnt__form {
+  background: #27374e;
 }
 
 header .logo_tiffanyhotel {
@@ -135,10 +133,14 @@ footer .footer__partie3 a {
   width: 25%;
   font-style: italic;
 }
-#container .section2 .section2__p3 {
+#container .section2 .container_section2__p3-button {
   display: flex;
   flex-direction: column;
   width: 10%;
+}
+#container .section2 .container_section2__p3-button .section2__p3 {
+  display: flex;
+  flex-direction: column;
 }
 #container .section3 {
   background-image: url("../img/chambre.jpg");

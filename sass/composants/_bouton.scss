@@ -1,11 +1,13 @@
 
-button
+
+a
 {
-    background: $primaryColor;
-    color: $secondaryColor;
-    border-radius: 10%;
-    a
+
+    .button
     {
+      border: $primaryColor;
       color: $secondaryColor;
+      background: $primaryColor;
+      border-radius: 10%;
     }
 }
