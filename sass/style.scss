@@ -6,7 +6,7 @@
 @import "composants/_form.scss";
 @import "layouts/_header.scss";
 @import "layouts/_footer.scss";
-
+@import "pages/_contact.scss";
 
 #container
 {
@@ -42,12 +42,22 @@
 
       .container_section2__p3-button
       {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         width: 10%;
         .section2__p3
         {
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
           flex-direction: column;
         }
       }
@@ -103,8 +113,10 @@
 
       .section4__txt-img
       {
-        display: flex;
 
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
         .section4__festivites
         {
           @include sectionPosition;

@@ -1,0 +1,22 @@
+
+
+.contact__section1
+{
+  background-image: url('../img/facade.jpg');
+  background-repeat: no-repeat;
+  height: 683px;
+  @include sectionPosition;
+  margin-left: 10%;
+
+  h2
+  {
+    @include containerSection;
+    width: 20%;
+    margin-top: 45%;
+    text-align: center;
+    a
+    {
+      color: $secondaryColor;
+    }
+  }
+}

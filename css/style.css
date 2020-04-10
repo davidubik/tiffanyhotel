@@ -11,7 +11,11 @@ a {
 }
 
 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
 }
 ul li {
@@ -33,9 +37,16 @@ a .button {
 }
 
 .form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-bottom: 5%;
 }
@@ -48,8 +59,8 @@ a .button {
 .form form textarea {
   height: 10vh;
 }
-.form form .btn .bnt__form {
-  background: #27374e;
+.form form a {
+  color: #27374e;
 }
 
 header .logo_tiffanyhotel {
@@ -72,21 +83,38 @@ footer {
   justify-content: space-around;
 }
 footer .footer__partie1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 footer .footer__partie2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 footer .footer__partie2 a {
   color: white;
 }
 footer .footer__partie2 .logo_social {
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 footer .footer__partie2 .logo_social .logo__network {
@@ -96,12 +124,50 @@ footer .footer__partie2 .logo_social .insta {
   width: 40%;
 }
 footer .footer__partie3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 footer .footer__partie3 a {
+  color: white;
+}
+
+.contact__section1 {
+  background-image: url("../img/facade.jpg");
+  background-repeat: no-repeat;
+  height: 683px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 10%;
+}
+.contact__section1 h2 {
+  background: #27374e;
+  color: white;
+  opacity: 55%;
+  align-content: center;
+  border-radius: 5px;
+  width: 20%;
+  margin-top: 45%;
+  text-align: center;
+}
+.contact__section1 h2 a {
   color: white;
 }
 
@@ -109,9 +175,16 @@ footer .footer__partie3 a {
   background-image: url("../img/salon.jpg");
   background-repeat: no-repeat;
   height: 681px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   color: white;
 }
@@ -134,21 +207,38 @@ footer .footer__partie3 a {
   font-style: italic;
 }
 #container .section2 .container_section2__p3-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   width: 10%;
 }
 #container .section2 .container_section2__p3-button .section2__p3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 #container .section3 {
   background-image: url("../img/chambre.jpg");
   background-repeat: no-repeat;
   height: 621px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 #container .section3 .container_section3__h2-p {
@@ -176,21 +266,37 @@ footer .footer__partie3 a {
   color: #b1882f;
 }
 #container .section4 .container_section4__h2-p {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 #container .section4 .container_section4__h2-p p {
   width: 50%;
 }
 #container .section4 .section4__txt-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 #container .section4 .section4__txt-img .section4__festivites {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 #container .section4 .section4__txt-img .section4__festivites .section4__img {
@@ -198,9 +304,16 @@ footer .footer__partie3 a {
   border-radius: 20%;
 }
 #container .section4 .section4__txt-img .section4__exlusif {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 #container .section4 .section4__txt-img .section4__exlusif .section4__img {
@@ -208,9 +321,16 @@ footer .footer__partie3 a {
   border-radius: 20%;
 }
 #container .section4 .section4__txt-img .section4__geneve {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 #container .section4 .section4__txt-img .section4__geneve .section4__img {
@@ -221,9 +341,16 @@ footer .footer__partie3 a {
   background-image: url("../img/geneva-nb.jpg");
   background-repeat: no-repeat;
   height: 593px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 #container .section5 .container_section5__h2-p {
